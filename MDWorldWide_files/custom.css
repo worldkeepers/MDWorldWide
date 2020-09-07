@@ -1,1 +1,36 @@
-<html><body><script type="text/javascript" src="/aes.js" ></script><script>function toNumbers(d){var e=[];d.replace(/(..)/g,function(d){e.push(parseInt(d,16))});return e}function toHex(){for(var d=[],d=1==arguments.length&&arguments[0].constructor==Array?arguments[0]:arguments,e="",f=0;f<d.length;f++)e+=(16>d[f]?"0":"")+d[f].toString(16);return e.toLowerCase()}var a=toNumbers("f655ba9d09a112d4968c63579db590b4"),b=toNumbers("98344c2eee86c3994890592585b49f80"),c=toNumbers("071d1a61f5fab81301927acb5eb64fbb");document.cookie="__test="+toHex(slowAES.decrypt(c,2,a,b))+"; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/"; location.href="./MDWorldWide_files/custom.css?i=1";</script><noscript>This site requires Javascript to work, please enable Javascript in your browser or use a browser with Javascript support</noscript></body></html>
+Body {
+background: transparent url("http://mdworldwide.byethost7.com/MDWorldWide_files/68775.jpg") repeat;
+}
+
+a:hover {color: #900000; font-weight:bold; text-decoration: none; } 
+
+
+MSC_HeaderDescription F_Dark {
+font-weight: bold;
+}
+
+.MSC_PrimaryNavFrame {
+background: -webkit-gradient(linear, left top, left bottom, from(#FC1E1E), to(#910000)) no-repeat !important;
+background: -moz-linear-gradient(top,  #FC1E1E,  #910000) !important;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FC1E1E', endColorstr='#910000') !important;
+
+text-shadow: 0px -1px 0px #111111;
+-moz-text-shadow: 0px -1px 0px #111111;
+-webkit-text-shadow: 0px -1px 0px #111111;
+}
+
+.MSC_FooterFrame
+{
+border:
+background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#555555)) !important;
+background: -moz-linear-gradient(top,  #333333,  #555555) !important;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#555555') !important;
+border: 1px solid #777777;
+border-radius: 3px 3px 3px;
+margin-top: 15px;
+-webkit-border-radius: 3px 3px 3px;
+
+text-shadow: 0px 1px 0px #000000;
+-moz-text-shadow: 0px 1px 0px #000000;
+-webkit-text-shadow: 0px 1px 0px #000000;
+}
